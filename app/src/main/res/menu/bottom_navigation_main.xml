@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_main"
+        android:enabled="true"
+        android:icon="@mipmap/home"
+        android:title="@string/main_home"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_creative"
+        android:enabled="true"
+        android:icon="@mipmap/creative"
+        android:title="@string/creative_design"
+        app:showAsAction="ifRoom"/>
+
+</menu>

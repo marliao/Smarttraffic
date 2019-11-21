@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00013e"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <com.github.mikephil.charting.charts.RadarChart
+                    android:id="@+id/radarchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"></com.github.mikephil.charting.charts.RadarChart>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="各路段实时道路状态"
+                    android:textColor="#a6e3ff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="\t\t根据各路段实时通车流量和各路段实时道路状态预计未来一小时内最适合出行的道路为："
+                    android:textColor="#a6e3ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="1号道路"
+                    android:textColor="#a6e3ff"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="通\n车\n累\n计"
+                        android:textColor="#a6e3ff"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="1号道路"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_blue_white_strock"
+                                    android:gravity="center"
+                                    android:padding="10dp"
+                                    android:text="12"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="辆"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="2号道路"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_2"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_blue_white_strock"
+                                    android:gravity="center"
+                                    android:padding="10dp"
+                                    android:text="12"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="辆"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="3号道路"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_3"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_blue_white_strock"
+                                    android:gravity="center"
+                                    android:padding="10dp"
+                                    android:text="12"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="辆"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="4号道路"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_4"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_blue_white_strock"
+                                    android:gravity="center"
+                                    android:padding="10dp"
+                                    android:text="12"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="辆"
+                                    android:textColor="#a6e3ff"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="各\n路\n段\n实\n时\n通\n车\n流\n量"
+                android:textColor="#a6e3ff"
+                android:textSize="20sp" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linchart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"></com.github.mikephil.charting.charts.LineChart>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="flexible.min.js"></script>
+</head>
+<body>
+<div class="user">
+    <div class="user-img">
+        <img src="avatar.png">
+    </div>
+    <div class="user-info">
+        <span class="user-name">用户名</span>
+        <span class="user-address">北京市</span>
+        <span class="user-phone">185********</span>
+        <a class="btn">签到</a>
+    </div>
+</div>
+<div class="task-title">任务列表</div>
+<div class="task-list">
+    <ul>
+        <li>
+            <div class="task">
+                <span class="task-name">任务1</span>
+                <a class="task-btn">点击此处去完成</a>
+            </div>
+        </li>
+        <li>
+            <div class="task">
+                <span class="task-name">任务2</span>
+                <a class="task-btn">去完成</a>
+            </div>
+        </li>
+        <li>
+            <div class="task">
+                <span class="task-name">任务3</span>
+                <a class="task-btn">去完成</a>
+            </div>
+        </li>
+        <li>
+            <div class="task">
+                <span class="task-name">任务4</span>
+                <a class="task-btn">去完成</a>
+            </div>
+        </li>
+        <li>
+            <div class="task">
+                <span class="task-name">任务5</span>
+                <a class="task-btn">去完成</a>
+            </div>
+        </li>
+        <li>
+            <div class="task">
+                <span class="task-name">任务6</span>
+                <a class="task-btn">去完成</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<script>
+    document.getElementsByClassName('task-btn')[0].onclick = function () {
+        window.location.href = 'file:///android_asset/www/detail.html';
+        window.WVJBInterface.setTitle("积分签到");
+    };
+</script>
+</body>
+</html>

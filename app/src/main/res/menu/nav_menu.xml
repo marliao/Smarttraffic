@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/screen"
+        android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:title="@string/nav_account"/>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/other">
+        <item
+            android:id="@+id/item_1"
+            android:icon="@drawable/ic_favorite_white_24dp"
+            android:title="交通资讯"/>
+        <item
+            android:id="@+id/item_2"
+            android:icon="@drawable/ic_history_gray_24dp"
+            android:title="天气预报"/>
+        <item
+            android:id="@+id/item_3"
+            android:icon="@drawable/ic_app_management_gray_24"
+            android:title="离线地图"/>
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_manage">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/set"
+            android:title="@string/nav_setting"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_gray_24dp"
+            android:title="@string/nav_about"/>
+    </group>
+
+</menu>

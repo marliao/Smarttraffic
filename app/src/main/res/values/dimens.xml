@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">7dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="margin_bigger">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_big">12dp</dimen>
+    <dimen name="margin_mid">10dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_line">1dp</dimen>
+    <dimen name="margin_1px">1px</dimen>
+
+    <!--文字的大小-->
+    <dimen name="text_size_bigger">20sp</dimen>
+    <dimen name="text_size_big">18sp</dimen>
+    <dimen name="text_size_mid">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_smaller">12sp</dimen>
+</resources>

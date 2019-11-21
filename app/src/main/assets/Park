@@ -1,0 +1,64 @@
+{
+    "img": "/images/parkzone/parkzone_001.png",
+    "longitude": "116.385307",
+    "latitude": "39.941853",
+    "location": "什刹海",
+    "ROWS_DETAIL": [
+        {
+            "name": "丽豪园小区停车场",
+            "address": "北京市西城区大石桥胡同55号后门丽豪园小区\r\n",
+            "coordinate": "116.388144,39.947112",
+            "open": 1,
+            "remarks": "停车场收费标准由全市停车系统统一定价，最高44元/天。",
+            "EmptySpace": 32,
+            "AllSpace": 68
+        },
+        {
+            "name": "新街口东街地上停车场",
+            "address": "西城区新街口东街\r\n",
+            "coordinate": "116.374765,39.942186",
+            "open": 1,
+            "remarks": "停车场收费标准由全市停车系统统一定价，最高41元/天。",
+            "EmptySpace": 32,
+            "AllSpace": 146
+        },
+        {
+            "name": "北京航鑫园宾馆地上停车场",
+            "address": "北京市西城区德内大街羊房胡同9号北京航鑫园宾馆\r\n",
+            "coordinate": "116.383109,39.94125",
+            "open": 0,
+            "remarks": "停车场收费标准由全市停车系统统一定价，最高43元/天。",
+            "EmptySpace": 8,
+            "AllSpace": 88
+        },
+        {
+            "name": "中国林业出版社地上停车场",
+            "address": "北京市西城区刘海胡同7号中国林业出版社\r\n",
+            "coordinate": "116.381556,39.93872",
+            "open": 0,
+            "remarks": "停车场收费标准由全市停车系统统一定价，最高44元/天。",
+            "EmptySpace": 43,
+            "AllSpace": 180
+        },
+        {
+            "name": "柳荫街恭王府停车场",
+            "address": "北京市西城区柳荫街14号附近\r\n",
+            "coordinate": "116.38517,39.936864",
+            "open": 1,
+            "remarks": "停车场收费标准由全市停车系统统一定价，最高44元/天。",
+            "EmptySpace": 0,
+            "AllSpace": 88
+        },
+        {
+            "name": "恭王府花园停车场",
+            "address": "北京市西城区前海西街22号附近\r\n",
+            "coordinate": "116.38517,39.936864",
+            "open": 1,
+            "remarks": "停车场收费标准由全市停车系统统一定价，最高44元/天。",
+            "EmptySpace": 121,
+            "AllSpace": 158
+        }
+    ],
+    "RESULT": "S",
+    "ERRMSG": "成功"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_80"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="22dp"
+       android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/iv_band"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="车辆"
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="地点"
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="原因"
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="扣分"
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="罚款(元)"
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="时间"
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="状态"
+        android:textColor="#000"
+        android:textSize="22dp" />
+</LinearLayout>
